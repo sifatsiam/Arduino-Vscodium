@@ -10,14 +10,16 @@ This document outlines the setup and usage of a Minimal Arduino IDE alternative 
 - [VSCodium](https://vscodium.com/)
 - [Arduino IDE](https://www.arduino.cc/en/software) (for installation of boards and libraries)
 - [Arduino Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-arduino.arduino)
-- [Powershell]
+- [Powershell](https://en.wikipedia.org/wiki/PowerShell)
+- A fully functional computer or your favourite pc
 
 ## Installation Steps
 
 1. **Install Visual Studio Code or VSCodium**:
    - Download and install from the [official website](https://code.visualstudio.com/).
    -  If you are on a Mac and have Homebrew installed try
-   -  ``` brew install --cask vscodium ```
+     
+   ``` brew install --cask vscodium ```
 
       
 2. **Install the Arduino Extension**:
@@ -53,6 +55,8 @@ This document outlines the setup and usage of a Minimal Arduino IDE alternative 
    - To include libraries from your `lib.txt`, use the following syntax in your sketch:
      ```cpp
      #include <Wire.h>
+     #include <Adafruit_MCP4725.h>
+
      ```
 
 4. **Compiling and Uploading**:
